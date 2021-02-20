@@ -8,11 +8,54 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/global/top.css">
   <title>成大單車節 資訊系</title>
   <style>
     body {
       background-color: #FFEAAC;
+    }
+
+    @media screen and (max-width: 3000px) {
+      .set-top_xxl::before {
+        content: "";
+        display: block;
+        height: 0px;
+        /* fixed header height*/
+        margin: -100px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 991.98px) {
+      .set-top_lg::before {
+        content: "";
+        display: block;
+        height: 0px;
+        /* fixed header height*/
+        margin: 100px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .set-top_m::before {
+        content: "";
+        display: block;
+        height: 0px;
+        /* fixed header height*/
+        margin: 150px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      .set-top_sm::before {
+        content: "";
+        display: block;
+        height: 0px;
+        /* fixed header height*/
+        margin: 100px 0 0;
+        /* negative fixed header height */
+      }
     }
 
     .navbar_content {
@@ -79,7 +122,8 @@
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="margin-top: 100px;">
       <h2 class="display-4">系核心課程</h1>
     </div>
-    <div id="Program_Design" class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <div id="Program_Design"
+      class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h2 class="display-5">軟體設計</h1>
     </div>
 
@@ -247,7 +291,8 @@
       </div>
     </div>
 
-    <div id="Hardware" class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <div id="Hardware"
+      class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h2 class="display-5">硬體開發</h1>
     </div>
 
@@ -385,7 +430,8 @@
       </div>
     </div>
 
-    <div id="math" class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <div id="math"
+      class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h2 class="display-5">數學方法與理論</h1>
     </div>
 
