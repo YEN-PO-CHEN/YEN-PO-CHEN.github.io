@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-tw">
+<html lang="en">
 
 <head>
   <!-- Required meta tags -->
@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/plan/can.css">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/global/top.css">
   <title>成大單車節 資訊系</title>
   <style>
     body {
@@ -18,82 +18,526 @@
     .navbar_content {
       background-color: #2C3E50;
     }
-  </style>
 
+    .bg_set_yellow {
+      background-color: #FFEAAC;
+    }
+  </style>
 </head>
+
 
 <body>
 
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light navbar_content">
-    <div class="container-fluid">
-      <span>
-        <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg" alt="成大單車節 資訊工程學系"
-            srcset="" width="250"></a>
-      </span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="brief.html" style="color: white;">科系簡介</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="plan.html" style="color: #9D9D9D;">課程規劃</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="future.html" style="color: white;">未來出路</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="entrance.html" style="color: white;">入學管道</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="link.html" style="color: white;">相關連結</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.html" style="color: white;">聯絡我們</a>
-          </li>
-        </ul>
+  <div class="fixed-top">
+    <!--navbar-->
+    <nav class=" navbar navbar-expand-lg navbar-light navbar_content p-1" aria-label="Main navigation">
+      <div class="container-fluid">
+        <span>
+          <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg" alt="成大單車節 資訊工程學系"
+              srcset="" width="250"></a>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="brief.html" style="color: white;">科系簡介</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="plan.html" style="color: #9D9D9D;">課程規劃</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="future.html" style="color: white;">未來出路</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="entrance.html" style="color: white;">入學管道</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="link.html" style="color: white;">相關連結</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html" style="color: white;">聯絡我們</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
-
-  <div class="nav-scroller bg--body shadow-sm">
-    <nav class="nav nav-underline" aria-label="Secondary navigation">
-      <a class="nav-link activ" aria-current="page" href="#">系核心課程</a>
-      <a class="nav-link" href="#">系核心課程</a>
-      <a class="nav-link" href="#">Suggestions</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
     </nav>
+    <div class="nav-scroller shadow-sm bg_set_yellow">
+      <nav class="nav nav-underline" aria-label="Secondary navigation">
+        <a class="nav-link" href="#Program_Design" style="color: #3b5875;">軟體設計</a>
+        <a class="nav-link" href="#Hardware" style="color: #3b5875;">硬體開發</a>
+        <a class="nav-link" href="#math" style="color: #3b5875;">數學方法與理論</a>
+        <a class="nav-link" href="#" style="color: #3b5875;">Link</a>
+      </nav>
+    </div>
   </div>
 
+  <main>
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="margin-top: 100px;">
+      <h2 class="display-4">系核心課程</h1>
+    </div>
+    <div id="Program_Design" class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h2 class="display-5">軟體設計</h1>
+    </div>
 
 
 
+    <div class="album py-5 bg_set_yellow ">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">程式設計（一）</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>學習基礎程式邏輯</li>
+                    <li>C基本設計</li>
+                    <li>熟悉C程式撰寫</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F711110&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大一上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">程式設計（二）</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>Java程式語言介紹</li>
+                    <li>物件導向軟體設計</li>
+                    <li>Java專案實作</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=2&co_no=F711120&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大一下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">資料結構</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>了解各種資料結構特性</li>
+                    <li>複雜度計算</li>
+                    <li>基本演算法</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F720300&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">演算法</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>認識各種重要演算法</li>
+                    <li>分析演算法時間複雜度</li>
+                    <li>設計演算法解決問題</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F720800&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">作業系統</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>編譯器技術之相關應用</li>
+                    <li>編譯器設計與實作之基礎課程</li>
+                    <li>實作可實際運作之編譯器</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=2&co_no=F732400&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大三下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">電腦網路概論</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li> </li>
+                    <li>於109學年度新增的課程，因此尚無完整資料。</li>
+                    <li> </li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank" href="" class="btn btn-sm btn-outline-secondary disabled" tabindex="-1"
+                        role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">新增課程 </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div id="Hardware" class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h2 class="display-5">硬體開發</h1>
+    </div>
 
+    <div class="album py-5 bg_set_yellow ">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">數位電路導論</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>電子電路基本概念</li>
+                    <li>設計基本類比、數位電路</li>
+                    <li>亦有各項實作部分</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F720401&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大一上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">數位系統導論</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>數位電路相關基礎知識</li>
+                    <li>熟悉設計數位電路的相關技巧</li>
+                    <li>數位系統架構設計</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F720900&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">數位系統實驗</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>數位電路的基本原理及實作方式</li>
+                    <li>麵包板、TTL IC的使用</li>
+                    <li>基本硬體描述語言、FPGA設計(使用Verilog硬體語言)</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F721000&class_code=1"
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">計算機組織</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>介紹現今電腦的基本觀念和組合語言與編譯器，組織和設計之間的關聯性</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=2&co_no=F720200&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">微算機原理與應用(含實驗)</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>熟悉微控制器硬體、結構和低階組合語言程式</li>
+                    <li>實驗課實作組合微控制器和相關各式嵌入式應用</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F732500&class_code=1"
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大三上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div id="math" class="set-top_xxl set-top_m set-top_sm set-top_lg pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h2 class="display-5">數學方法與理論</h1>
+    </div>
 
+    <div class="album py-5 bg_set_yellow ">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">線性代數</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>矩陣</li>
+                    <li>向量空間</li>
+                    <li>線性轉換</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=2&co_no=F720100&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大一下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">機率統計</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>熟悉重要的機率分布</li>
+                    <li>熟悉藉由機率與統計之理論應用於工程及科學研究</li>
+                    <li>介紹機率統計建模工具(Matlab語法)</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F721100&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">離散數學</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>了解離散數學的基礎知識和背景</li>
+                    <li>介紹計算機使用之數學相關之理論、應用</li>
+                    <li>引導學生建立演算理論之基本能力</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=2&co_no=F720600&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">計算機組織</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>介紹現今電腦的基本觀念和組合語言與編譯器，組織和設計之間的關聯性</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=2&co_no=F720200&class_code="
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大二下學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-primary">
+              <div>
+                <div class="card-header">
+                  <p class="card-text">微算機原理與應用(含實驗)</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                  <ul type="none">
+                    <li>熟悉微控制器硬體、結構和低階組合語言程式</li>
+                    <li>實驗課實作組合微控制器和相關各式嵌入式應用</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank"
+                        href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=F732500&class_code=1"
+                        class="btn btn-sm btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">課程大綱
+                      </a>
+                    </div>
+                    <small class="text-muted">大三上學期</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <footer class="bg-transparent py-5">
+      <div class="container-sm">
+        <div class="medium  align-content-center text-center">
+          <img src="photo/SVG/Logo/logo大字.svg" alt="成功大學資訊系學會" width="250">
+        </div>
+        <div class="small text-center text-muted">Copyright ©2021 All rights reserved</div>
+      </div>
+    </footer>
 
-
-
-
-
-
-
-
-
+  </main>
   <!-- Optional JavaScript; choose one of the two! -->
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap/popper.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>

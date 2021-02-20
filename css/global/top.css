@@ -1,0 +1,41 @@
+html, 
+
+@media (max-width: 1400px){
+    .set-top_xxl::before {
+        content: "";
+        display: block;
+        height: 200px;
+        /* fixed header height*/
+        margin: -100px 0 0;
+        /* negative fixed header height */
+    }
+}
+@media (max-width: 991.98px) {
+    .set-top_lg::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+    }
+}
+@media (max-width: 768px){
+    .set-top_m::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+    }
+}
+@media (max-width: 576px){
+.set-top_sm::before {
+    content: "";
+    display: block;
+    height: 150px;
+    /* fixed header height*/
+    margin: -50px 0 0;
+    /* negative fixed header height */
+}
