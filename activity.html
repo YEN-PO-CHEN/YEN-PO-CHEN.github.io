@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-tw">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
+    <title>成大單車節 資訊系</title>
+    <style>
+        body {
+            background-color: #FFEAAC;
+        }
+
+        .navbar_content {
+            background-color: #2C3E50;
+        }
+
+        .img-adjust {
+            max-width: 520px;
+        }
+
+        .col-adjust {
+            background-color: #2C3150;
+        }
+
+        @media screen and (max-width: 3000px) {
+            .row::before {
+                content: "";
+                display: block;
+                height: 150px;
+                /* fixed header height*/
+                margin: -50px 0 0;
+                /* negative fixed header height */
+            }
+
+            .carousel-inner {
+                width: 520px;
+            }
+        }
+
+        @media screen and (max-width: 1400px) {
+            .row::before {
+                content: "";
+                display: block;
+                height: 150px;
+                /* fixed header height*/
+                margin: -50px 0 0;
+                /* negative fixed header height */
+            }
+
+            .col-adjust {
+                height: 100%;
+                max-height: 50px;
+            }
+
+            .carousel-inner {
+                width: auto;
+            }
+        }
+
+        @media screen and (max-width: 991.98px) {
+            .set-top_lg::before {
+                content: "";
+                display: block;
+                height: 150px;
+                /* fixed header height*/
+                margin: -50px 0 0;
+                /* negative fixed header height */
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .set-top_m::before {
+                content: "";
+                display: block;
+                height: 150px;
+                /* fixed header height*/
+                margin: -50px 0 0;
+                /* negative fixed header height */
+            }
+
+            .img-adjust {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                overflow: auto;
+            }
+
+
+
+        }
+
+        @media screen and (max-width: 576px) {
+            .set-top_sm::before {
+                content: "";
+                display: block;
+                height: 150px;
+                /* fixed header height*/
+                margin: -50px 0 0;
+            }
+
+            .img-adjust {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                overflow: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <!--navbar-->
+        <nav class=" navbar navbar-expand-lg navbar-light navbar_content p-1" aria-label="Main navigation">
+            <div class="container-fluid">
+                <span>
+                    <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg"
+                            alt="成大單車節 資訊工程學系" srcset="" width="250"></a>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="brief.html"
+                                style="color: white;;">科系簡介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="plan.html"
+                                style="color: white;">課程規劃</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="future.html"
+                                style="color: white;">未來出路</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="entrance.html"
+                                style="color: white;">入學管道</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-current="page" href="activity.html  "
+                                style="color: #9D9D9D;">系上活動</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="link.html"
+                                style="color: white;">相關連結</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html"
+                                style="color: white;">聯絡我們</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-scroller shadow-sm bg_set_yellow">
+            <nav class="nav nav-underline" aria-label="Secondary navigation">
+                <a class="nav-link" href="#camp" style="color: #3b5875;">迎新宿營</a>
+                <a class="nav-link" href="#week" style="color: #3b5875;">資訊週</a>
+                <a class="nav-link" href="#" style="color: #3b5875;">湯圓會</a>
+                <a class="nav-link" href="#" style="color: #3b5875;">系隊</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <!--防止navbar蓋住標題-->
+        <div class="row justify-content-start">
+            <div id="camp" class="col-xxl-4">
+            </div>
+        </div>
+
+        <!--宿營-->
+
+        <div class="row justify-content-start shadow-lg p-4 mb-5  rounded"
+            style="width: 90%; height: 80%; background-color: #F2F5F5;" id="camp-row">
+
+            <div class="col-xxl-1" style="background-color: #2C3150;">
+            </div>
+
+            <div class="col-xxl-4" style="font-size: 110%;">
+                <div class="row justify-content-start">
+                    <div class="col-xxl-6">
+                        <h1>迎新宿營</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xxl-12">
+                        迎新宿營將會是學生們進入到成大資訊系後遇到的<b>第一個活動！</b> <br>
+                        按照以往的經驗<br>
+                        迎新宿營將會與其他科系一起合辦<br>
+                        裡面將有許多親切的學長姐<br>
+                        帶領小大一進行互動，藉此認識彼此<br>
+                        並且在迎新宿營的期間<br>
+                        將會有許多有趣的環節等待大家來一一探索<br>
+                        歡迎各位小小新鮮人們一起來體驗！
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-1">
+            </div>
+
+            <div class="col-xxl-4 ">
+                <!--<img class="img-adjust img-fluid" src="photo/照片/宿營/宿營照片1.JPG" style="max-width: 520px;">-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="photo/照片/宿營/宿營照片1.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="photo/照片/宿營/火晚.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="photo/照片/宿營/宿營合照.JPG" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--防止navbar蓋住標題-->
+        <div class="row justify-content-start">
+            <div id="week" class="col-xxl-4">
+            </div>
+        </div>
+        <!--資訊週內文-->
+        <div class="row justify-content-start">
+            <div class="col-xxl-4">
+                <h2>資訊週</h2>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-xxl-4">
+
+            </div>
+            <div class="col-xxl-4">
+                <img src="photo/SVG/Logo/logo大字.svg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="bg-transparent py-5">
+        <div class="container-sm">
+            <div class="medium  align-content-center text-center">
+                <img src="photo/SVG/Logo/logo大字.svg" alt="成功大學資訊系學會" width="250">
+            </div>
+            <div class="small text-center text-muted">Copyright ©2021 All rights reserved</div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
