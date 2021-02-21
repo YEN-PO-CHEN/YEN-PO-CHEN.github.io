@@ -14,8 +14,55 @@
       background-color: #FFEAAC;
     }
 
+    @media screen and (max-width: 3000px) {
+      .set-top_xxl::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 991.98px) {
+      .set-top_lg::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .set-top_m::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      .set-top_sm::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+      }
+    }
+
     .navbar_content {
       background-color: #2C3E50;
+    }
+
+    .bg_set_yellow {
+      background-color: #FFEAAC;
     }
   </style>
 </head>
@@ -59,7 +106,7 @@
     </nav>
     <div class="nav-scroller shadow-sm bg_set_yellow">
       <nav class="nav nav-underline" aria-label="Secondary navigation">
-        <a class="nav-link" href="#Program_Design" style="color: #3b5875;">軟體設計</a>
+        <a class="nav-link" href="#Program_Design" style="color: #3b5875;"></a>
         <a class="nav-link" href="#Hardware" style="color: #3b5875;">硬體開發</a>
         <a class="nav-link" href="#math" style="color: #3b5875;">數學方法與理論</a>
         <a class="nav-link" href="#" style="color: #3b5875;">Link</a>
@@ -68,15 +115,26 @@
   </div>
 
 
+  <!-- Page Content-->
+  <div class="set-top_lg set-top_m set-top_sm set-top_xxl container-fluid p-0">
+    <!-- About-->
+    <section id="about">
 
+      <h1 class="mb-0">
+        Clarence
+        <span class="text-primary">Taylor</span>
+      </h1>
+      <div class="mb-5">
+        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+        <a href="mailto:name@email.com">name@email.com</a>
+      </div>
+      <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
+        overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+        proposition.</p>
 
-
-
-
-
-
-
-
+    </section>
+    <hr class="m-0">
+  </div>
 
 
 
@@ -95,8 +153,9 @@
 
 
 
-<!-- Optional JavaScript; choose one of the two! -->
-<script src="js/bootstrap/popper.min.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="js/bootstrap/popper.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
+
 </html>
