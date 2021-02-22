@@ -17,59 +17,283 @@
     .navbar_content {
       background-color: #2C3E50;
     }
+
+    .img-adjust {
+      max-width: 520px;
+    }
+
+    .col-adjust {
+      background-color: #2C3150;
+    }
+
+    .bg_set_yellow {
+      background-color: #FFEAAC;
+    }
+
+    @media screen and (max-width: 3000px) {
+      .row::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+
+      .carousel-inner {
+        width: 520px;
+      }
+    }
+
+    @media screen and (max-width: 1400px) {
+      .row::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+
+      .col-adjust {
+        height: 100%;
+        max-height: 50px;
+      }
+
+      .carousel-inner {
+        width: auto;
+      }
+    }
+
+    @media screen and (max-width: 991.98px) {
+      .set-top_lg::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .set-top_m::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+
+      .img-adjust {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        overflow: auto;
+      }
+
+
+
+    }
+
+    @media screen and (max-width: 576px) {
+      .set-top_sm::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+      }
+
+      .img-adjust {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        overflow: auto;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <div class="fixed-top">
-    <!--navbar-->
-    <nav class=" navbar navbar-expand-lg navbar-light navbar_content p-1" aria-label="Main navigation">
-      <div class="container-fluid">
-        <span>
-          <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg" alt="成大單車節 資訊工程學系"
-              srcset="" width="250"></a>
-        </span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="brief.html" style="color: #9D9D9D;">科系簡介</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="plan.html" style="color: white;">課程規劃</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="future.html" style="color: white;">未來出路</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="entrance.html" style="color: white;">入學管道</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="activity.html" style="color: white;">系上活動</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="link.html" style="color: white;">相關連結</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html" style="color: white;">聯絡我們</a>
-            </li>
-          </ul>
+  <main>
+    <div class="fixed-top">
+      <!--navbar-->
+      <nav class=" navbar navbar-expand-lg navbar-light navbar_content p-1" aria-label="Main navigation">
+        <div class="container-fluid">
+          <span>
+            <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg" alt="成大單車節 資訊工程學系"
+                srcset="" width="250"></a>
+          </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-current="page" href="brief.html" style="color: #9D9D9D;">科系簡介</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="plan.html" style="color: white;">課程規劃</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="future.html" style="color: white;">未來出路</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="entrance.html" style="color: white;">入學管道</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="activity.html" style="color: white;">系上活動</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="link.html" style="color: white;">相關連結</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html" style="color: white;">聯絡我們</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="nav-scroller shadow-sm bg_set_yellow">
-      <nav class="nav nav-underline" aria-label="Secondary navigation">
-        <a class="nav-link" href="#Program_Design" style="color: #3b5875;">軟體設計</a>
-        <a class="nav-link" href="#Hardware" style="color: #3b5875;">硬體開發</a>
-        <a class="nav-link" href="#math" style="color: #3b5875;">數學方法與理論</a>
-        <a class="nav-link" href="#" style="color: #3b5875;">Link</a>
       </nav>
+      <div class="nav-scroller shadow-sm bg_set_yellow">
+        <nav class="nav nav-underline" aria-label="Secondary navigation">
+          <a class="nav-link" href="#one" style="color: #3b5875;">系所簡介</a>
+          <a class="nav-link" href="#two" style="color: #3b5875;">本系特色</a>
+          <a class="nav-link" href="#three" style="color: #3b5875;">本系教授</a>
+          <a class="nav-link" href="#four" style="color: #3b5875;">研究領域</a>
+        </nav>
+      </div>
+    </div>
+  </main>
+
+  <!--防止navbar蓋住標題-->
+  <div class="row justify-content-start">
+    <div id="one" class="col-xxl-4">
     </div>
   </div>
 
+  <main class="container shadow-lg">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 text-muted">系所簡介</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal text-muted">資工系</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">一系三所</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li >資訊工程學士班</li>
+              <hr style="width: 50%; margin-left: 25%;">
+              <li style="margin-top: 10px;" >資訊工程研究所</li>
+              <li style="margin-top: 5px; ">醫學資訊研究所</li>
+              <li style="margin-top: 5px;" >製造資訊與系統研究所</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal text-muted">系所位置</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">工學大道上 <small class="text-muted">/ 成功校區</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li></li>
+              <li> 台南市東區大學路一號</li>
+              
+              <hr style="width: 50%; margin-left: 25%;">
+              <li></li>
+              <li ><a href="tel:06-2757575#62500">>06-2757575#62500</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li >Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--防止navbar蓋住標題-->
+  <div class="row justify-content-start">
+    <div id="two" class="col-xxl-4">
+    </div>
+  </div>
+  <main class="container shadow-lg">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 text-muted">本系特色</h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal text-muted">授課品質</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title ">IEET認證</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="text-muted">符合 美國華盛頓公約 大學工程教育認證</li>
+              <li class="text-muted">以利往後往國外發展</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal text-muted">教育資源</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal text-muted">就業優勢</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">企業最愛</h1>
+            <ul class="list-unstyled mt-3 mb-4 text-muted">
+              <li>緊鄰台南科學園區，增進產官學合作。
+              </li>
+              <li>成大連續十年榮獲企業最愛，就業有保障</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <footer class="bg-transparent py-5">
     <div class="container-sm">
       <div class="medium  align-content-center text-center">
@@ -81,6 +305,7 @@
   <!-- Optional JavaScript; choose one of the two! -->
   <script src="js/bootstrap/popper.min.js"></script>
   <script src="js/bootstrap/bootstrap.min.js"></script>
+
 </body>
 
 </html>
