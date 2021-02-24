@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#ffeaac"/>
+    <line id="直线_1" data-name="直线 1" y2="102" transform="translate(1892.5 0.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_2" data-name="直线 2" x2="80" transform="translate(1726.5 210.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <g id="椭圆_1" data-name="椭圆 1" transform="translate(1860 571)" fill="none" stroke="#2c3e50" stroke-width="10">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <line id="直线_3" data-name="直线 3" x2="83" transform="translate(1809.5 102.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_4" data-name="直线 4" x2="83" transform="translate(1726.5 141.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_5" data-name="直线 5" y2="39" transform="translate(1809.5 102.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_6" data-name="直线 6" y2="69" transform="translate(1726.5 141.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_7" data-name="直线 7" y2="229" transform="translate(1806.5 210.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_8" data-name="直线 8" x2="143" transform="translate(1663.5 439.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_9" data-name="直线 9" x2="219" transform="translate(1663.5 506.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_10" data-name="直线 10" y2="67" transform="translate(1662.5 439.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_11" data-name="直线 11" y2="67" transform="translate(1883.5 506.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <path id="路径_3" data-name="路径 3" d="M28.466,0l.772,244H-135.139" transform="translate(1831.9 0.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <g id="椭圆_2" data-name="椭圆 2" transform="translate(1651 48)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <g id="椭圆_3" data-name="椭圆 3" transform="translate(1745 599)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <g id="组件_1_1" data-name="组件 1 – 1" transform="translate(1767.387 364.299)">
+      <path id="路径_2" data-name="路径 2" d="M1.5,55.248l.029-44.477H84.7V-75.45H.887V-184H153.5" transform="translate(-0.887 184.001)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    </g>
+    <path id="路径_4" data-name="路径 4" d="M218,0H134.547V79.474H8.217V291.541h-75.91" transform="translate(1702.5 325.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <g id="椭圆_4" data-name="椭圆 4" transform="translate(1742 766)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <g id="椭圆_5" data-name="椭圆 5" transform="translate(1594 594)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <path id="路径_5" data-name="路径 5" d="M0,156V46.922H59.186V9.167H-25.766V-117.587" transform="translate(1790.5 924.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <path id="路径_6" data-name="路径 6" d="M281,0H190.256V118.845H64.936" transform="translate(1639.5 883.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <g id="椭圆_6" data-name="椭圆 6" transform="translate(1664 980)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <path id="路径_7" data-name="路径 7" d="M286,0H83.789V-81.953H-11.7" transform="translate(1634.5 829.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <g id="椭圆_7" data-name="椭圆 7" transform="translate(1583 725)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <path id="路径_8" data-name="路径 8" d="M371,0H257.961V176.924H101.376" transform="translate(1549.5 688.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <g id="椭圆_8" data-name="椭圆 8" transform="translate(1609 843)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <path id="路径_9" data-name="路径 9" d="M175,0H29.395V-106.14H-57.925" transform="translate(1745.5 176.5)" fill="none" stroke="#2c3e50" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <g id="椭圆_9" data-name="椭圆 9" transform="translate(1658 222)" fill="none" stroke="#2c3e50" stroke-width="10" opacity="0.2">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <line id="直线_12" data-name="直线 12" y2="102" transform="translate(1892.5 0.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_13" data-name="直线 13" x2="80" transform="translate(1726.5 210.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <g id="椭圆_10" data-name="椭圆 10" transform="translate(1860 571)" fill="none" stroke="#2c3e50" stroke-width="10">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="17.5" fill="none"/>
+    </g>
+    <line id="直线_14" data-name="直线 14" x2="83" transform="translate(1809.5 102.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_15" data-name="直线 15" x2="83" transform="translate(1726.5 141.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_16" data-name="直线 16" y2="39" transform="translate(1809.5 102.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_17" data-name="直线 17" y2="69" transform="translate(1726.5 141.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_18" data-name="直线 18" y2="229" transform="translate(1806.5 210.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_19" data-name="直线 19" x2="143" transform="translate(1663.5 439.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_20" data-name="直线 20" x2="219" transform="translate(1663.5 506.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_21" data-name="直线 21" y2="67" transform="translate(1662.5 439.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_22" data-name="直线 22" y2="67" transform="translate(1883.5 506.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <path id="路径_24" data-name="路径 24" d="M-134.862,55.5-135.139,0h58.862" transform="translate(1996.276 1025)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+    <line id="直线_44" data-name="直线 44" y2="100" transform="translate(1892.5 980.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <line id="直线_45" data-name="直线 45" x2="28" transform="translate(1892.5 980.5)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-width="10"/>
+    <path id="路径_26" data-name="路径 26" d="M-134.526,0l-.613,138.462h130.5" transform="translate(1925.139 -96.923)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" opacity="0.2"/>
+  </g>
+</svg>

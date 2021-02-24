@@ -11,7 +11,10 @@
   <title>成大單車節 資訊系</title>
   <style>
     body {
-      background-color: #FFEAAC;
+      background-image: url("./photo/背景/Web1.svg");
+      background-size:cover;
+      background-attachment: fixed;
+      background-position: left;
     }
 
     .navbar_content {
@@ -29,10 +32,12 @@
     .bg_set_yellow {
       background-color: #FFEAAC;
     }
+
     .card_yen {
-        width: auto;
-        height: 250px;
-      }
+      width: auto;
+      height: 255px;
+    }
+
     @media screen and (max-width: 3000px) {
       .row::before {
         content: "";
@@ -42,7 +47,12 @@
         margin: -50px 0 0;
         /* negative fixed header height */
       }
-
+      body {
+      background-image: url("./photo/背景/Web1.svg");
+      background-size:cover;
+      background-attachment: fixed;
+      background-position: left;
+    }
       .carousel-inner {
         width: 520px;
         padding: 50%;
@@ -60,7 +70,12 @@
         margin: -50px 0 0;
         /* negative fixed header height */
       }
-
+      body {
+      background-image: url("./photo/背景/Web1.svg");
+      background-size:contain;
+      background-attachment: fixed;
+      background-position: left;
+    }
       .col-adjust {
         height: 100%;
         max-height: 50px;
@@ -164,12 +179,11 @@
           </div>
         </div>
       </nav>
-      <div class="nav-scroller shadow-sm bg_set_yellow">
+      <div class="nav-scroller shadow-sm  bg_set_yellow">
         <nav class="nav nav-underline" aria-label="Secondary navigation">
-          <a class="nav-link" href="#one" style="color: #3b5875;">系所簡介</a>
-          <a class="nav-link" href="#two" style="color: #3b5875;">本系特色</a>
-          <a class="nav-link" href="#three" style="color: #3b5875;">本系教授</a>
-          <a class="nav-link" href="#four" style="color: #3b5875;">研究領域</a>
+          <a class="nav-link bg_set_yellow" href="#one" style="color: #3b5875; ">系所簡介</a>
+          <a class="nav-link bg_set_yellow" href="#two" style="color: #3b5875;">本系特色</a>
+          <a class="nav-link bg_set_yellow" href="#three" style="color: #3b5875;">研究領域</a>
         </nav>
       </div>
     </div>
@@ -235,8 +249,8 @@
               <li>將招收三班</li>
               <hr style="width: 50%; margin-left: 25%;">
               <li>培訓更多資訊人才</li>
-              <li style="margin-top: 10px;"> 帶領南台灣拓展資訊相關領域</li>
-              <li style="margin-top: 10px;">並開設普渡雙聯學位與多項國際交換計畫</li>
+              <li style="margin-top: 10px;"> 拓展資訊相關領域</li>
+              <li style="margin-top: 10px;">開設普渡雙聯學位與多項國際交換計畫</li>
 
             </ul>
           </div>
@@ -264,8 +278,10 @@
           <div class="card-body card_yen">
             <h1 class="card-title pricing-card-title ">IEET認證</h1>
             <ul class="list-unstyled mt-3 mb-4">
+              <hr style="width: 0%; margin-left: 25%;">
+              <hr style="width: 0%; margin-left: 25%;">
               <li class="text-muted">符合 美國華盛頓公約 大學工程教育認證</li>
-              <li class="text-muted">以利往後往國外發展</li>
+              <li class="text-muted" style="margin-top: 10px;">以利往後往國外發展</li>
             </ul>
           </div>
         </div>
@@ -279,10 +295,9 @@
             <h1 class="card-title pricing-card-title">多元師資
             </h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-              <li>多樣化的領域</li>
-              <li>傳統的電腦網路新興科技物聯網、大數據、人工智慧皆有相對應的教授</li>
-              <li>也與成大醫院共同發展醫學資訊</li>
+              <li class="text-muted">多樣化的領域</li>
+              <li class="text-muted" style="margin-top: 10px;">傳統與新興領域皆有相對應的教授</li>
+              <li class="text-muted" style="margin-top: 10px;">也與成大醫院共同發展醫學資訊</li>
             </ul>
           </div>
         </div>
@@ -295,8 +310,7 @@
           <div class="card-body card_yen">
             <h1 class="card-title pricing-card-title">企業最愛</h1>
             <ul class="list-unstyled mt-3 mb-4 text-muted">
-              <li>緊鄰台南科學園區，增進產官學合作。
-              </li>
+              <li>緊鄰台南科學園區，增進產官學合作。</li>
               <li>成大連續十年榮獲企業最愛，就業有保障</li>
             </ul>
           </div>
@@ -306,69 +320,10 @@
   </main>
   <!--防止navbar蓋住標題-->
   <div class="row justify-content-start">
-    <div id="two" class="col-xxl-4">
+    <div id="three" class="col-xxl-4">
     </div>
   </div>
-  <!--指導教授-->
-  <main class="container shadow-lg">
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 text-muted">指導教授</h1>
-    </div>
 
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal text-muted">授課品質</h4>
-          </div>
-          <div class="card-body card_yen">
-            <h1 class="card-title pricing-card-title ">IEET認證</h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li class="text-muted">符合 美國華盛頓公約 大學工程教育認證</li>
-              <li class="text-muted">以利往後往國外發展</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal text-muted">教育資源</h4>
-          </div>
-          <div class="card-body card_yen">
-            <h1 class="card-title pricing-card-title">多元師資
-            </h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-              <li>多樣化的領域</li>
-              <li>傳統的電腦網路新興科技物聯網、大數據、人工智慧皆有相對應的教授</li>
-              <li>也與成大醫院共同發展醫學資訊</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal text-muted">就業優勢</h4>
-          </div>
-          <div class="card-body card_yen">
-            <h1 class="card-title pricing-card-title">企業最愛</h1>
-            <ul class="list-unstyled mt-3 mb-4 text-muted">
-              <li>緊鄰台南科學園區，增進產官學合作。
-              </li>
-              <li>成大連續十年榮獲企業最愛，就業有保障</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  <!--防止navbar蓋住標題-->
-  <div class="row justify-content-start">
-    <div id="two" class="col-xxl-4">
-    </div>
-  </div>
   <!--研究領域-->
   <main class="container shadow-lg">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -384,9 +339,11 @@
           <div class="card-body card_yen">
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-muted">數位生活科技</li>
-              <li class="text-muted">軟體工程</li>
+              <li class="text-muted" style="margin-top: 10px;">軟體工程</li>
               <hr style="width: 30%; margin-left: 35%;">
-              <li class="text-muted">量子資訊、網路安全、演算法</li>
+              <li class="text-primary" style="margin-top: 10px;">量子資訊</li>
+              <li class="text-primary" style="margin-top: 10px;">網路安全</li>
+              <li class="text-muted" style="margin-top: 10px;">演算法</li>
             </ul>
           </div>
         </div>
@@ -398,10 +355,11 @@
           </div>
           <div class="card-body card_yen">
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="text-muted">高速網路、多媒體串流</li>
-              <li class="text-muted">無線通訊、行動寬頻網路</li>
+              <li class="text-muted"style="margin-top: 10px;">高速網路、多媒體串流</li>
+              <li class="text-muted"style="margin-top: 10px;">無線通訊、行動寬頻網路</li>
               <hr style="width: 30%; margin-left: 35%;">
-              <li class="text-muted">雲端計算、高效能計算</li>
+              <li class="text-primary"style="margin-top: 10px;">雲端計算</li>
+              <li class="text-primary" style="margin-top: 10px;">高效能計算</li>
             </ul>
           </div>
         </div>
@@ -413,8 +371,12 @@
           </div>
           <div class="card-body card_yen">
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="text-muted">資料探勘、行動運算、網際網路與社群網路</li>
               <li class="text-muted">知識工程與管理、資料庫管理系統</li>
+              <hr style="width: 30%; margin-left: 35%;">
+              <li class="text-primary"style="margin-top: 10px;">資料探勘</li>
+                <li class="text-primary"style="margin-top: 10px;">行動運算</li>
+                  <li class="text-primary"style="margin-top: 10px;">網際網路與社群網路</li>
+              
             </ul>
           </div>
         </div>
@@ -427,9 +389,11 @@
           <div class="card-body card_yen">
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-muted">信號處理、影像處理</li>
-              <li class="text-muted">電腦視覺、電腦繪圖</li>
+              <li class="text-muted"style="margin-top: 10px;" >電腦視覺、電腦繪圖</li>
               <hr style="width: 30%; margin-left: 35%;">
-              <li class="text-muted">人工智慧、機器學習與圖形辨識、語音辨識、人機互動、多媒體雲端計算</li>
+              <li class="text-primary"style="margin-top: 10px;">人工智慧</li>
+              <li class="text-primary"style="margin-top: 10px;">機器學習與圖形辨識、語音辨識、人機互動</li>
+              <li class="text-primary"style="margin-top: 10px;">多媒體雲端計算</li>
             </ul>
           </div>
         </div>
@@ -441,9 +405,10 @@
           </div>
           <div class="card-body card_yen">
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="text-muted">架構與嵌入式系統</li>
-              <li class="text-muted">結構與系統 </li>
-              <li class="text-muted">設計自動化</li>
+              <hr style="width: 0%; margin-left: 35%; padding-top: 5%;" >
+              <li class="text-muted"style="margin-top: 10px;">架構與嵌入式系統</li>
+              <li class="text-muted"style="margin-top: 10px;">結構與系統 </li>
+              <li class="text-muted"style="margin-top: 10px;">設計自動化</li>
             </ul>
           </div>
         </div>
@@ -457,8 +422,9 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-muted">生物資訊、生醫資訊檢索、生醫智慧系統</li>
               <hr style="width: 30%; margin-left: 35%;">
-              <li class="text-muted">生醫訊號處理、生醫影像處理、醫學影像系統 </li>
-              <li class="text-muted">生醫資訊系統、醫用人機介面設計、生醫資訊網路、生醫檢測晶片設計</li>
+              <li class="text-primary">生醫訊號處理、生醫影像處理、醫學影像系統 </li>
+              <li class="text-primary" style="margin-top: 10px;">生醫資訊系統、醫用人機介面設計</li>
+              <li class="text-primary" style="margin-top: 10px;">生醫資訊網路、生醫檢測晶片設計</li>
             </ul>
           </div>
         </div>
@@ -470,9 +436,11 @@
           </div>
           <div class="card-body card_yen">
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="text-muted">製造系統與管理—製造管理、半導體生產自動化、智慧型製造系統</li>
-              <li class="text-muted"> E化製造、資訊與機電整合、半導體生產自動化 </li>
-              <li class="text-muted">商業智慧、製造演算法、整合製造資訊系統、醫院自動化資訊系統</li>
+              <hr style="width: 0%; margin-left: 35%;" >
+              <li class="text-muted"style="margin-top: 10px;">製造系統與管理</li>
+              <li class="text-muted"style="margin-top: 10px;"> E化製造、資訊與機電整合、半導體生產自動化 </li>
+              <li class="text-muted" style="margin-top: 10px;">商業智慧、製造演算法</li>
+              <li class="text-muted" style="margin-top: 10px;">整合製造資訊系統、醫院自動化資訊系統</li>
             </ul>
           </div>
         </div>
