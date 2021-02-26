@@ -14,86 +14,151 @@
       background-color: #FFEAAC;
     }
 
+    @media screen and (max-width: 3000px) {
+      .set-top_xxl::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 991.98px) {
+      .set-top_lg::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .set-top_m::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+        /* negative fixed header height */
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      .set-top_sm::before {
+        content: "";
+        display: block;
+        height: 150px;
+        /* fixed header height*/
+        margin: -50px 0 0;
+      }
+    }
+
     .navbar_content {
       background-color: #2C3E50;
+    }
+
+    .bg_set_yellow {
+      background-color: #FFEAAC;
     }
   </style>
 </head>
 
-<body></body>
+<body>
+  <div class="fixed-top">
+    <!--navbar-->
+    <nav class=" navbar navbar-expand-lg navbar-light navbar_content p-1" aria-label="Main navigation">
+      <div class="container-fluid">
+        <span>
+          <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg" alt="成大單車節 資訊工程學系"
+              srcset="" width="250"></a>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img src="./photo/SVG/icon/three_line.svg" alt="" width="18px" height="23px"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="brief.html" style="color: white;">科系簡介</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="plan.html" style="color: white;">課程規劃</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="future.html" style="color: white;">未來出路</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="entrance.html" style="color: white;">入學管道</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="activity.html" style="color: white;">系上活動</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="link.html" style="color: #9D9D9D;">相關連結</a>
+            </li>
 
-<div class="fixed-top">
-  <!--navbar-->
-  <nav class=" navbar navbar-expand-lg navbar-light navbar_content p-1" aria-label="Main navigation">
-    <div class="container-fluid">
-      <span>
-        <a class="navbar-brand" href="index.html"><img src="./photo/SVG/Logo/成大單車節 資訊工程學系.svg" alt="成大單車節 資訊工程學系"
-            srcset="" width="250"></a>
-      </span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><img src="./photo/SVG/icon/three_line.svg" alt="" width="18px" height="23px"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="brief.html" style="color: white;">科系簡介</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="plan.html" style="color: white;">課程規劃</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="future.html" style="color: white;">未來出路</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="entrance.html" style="color: white;">入學管道</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="activity.html" style="color: white;">系上活動</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="link.html" style="color: #9D9D9D;">相關連結</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.html" style="color: white;">聯絡我們</a>
-          </li>
-        </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Page Content-->
+  <div class="set-top_lg set-top_m set-top_sm set-top_xxl container-fluid p-0">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
+        <div class="card bg-transparent">
+          <div class="card-header">
+            <img src="./photo/SVG/link/2021 成大資訊營.svg" alt="未來出路">
+          </div>
+          <div class="card-body" style="text-align: center;">
+            <div class="card-title card-text" style="font-size: larger; text-align: center; ">
+              2021 成大資訊營 終局資戰
+            </div>
+            <div class="card-title card-text text-muted" style="font-size:medium; text-align: center; ">
+              相關報名資訊會於近期內公布至粉專中<br>
+              (預計四月開放報名)
+            </div>
+            <hr style="width: 50%; margin-left: 25%;">
+            <a target="_blank" href="https://computing.ncku.edu.tw/" class="btn btn-outline-success" tabindex="-1"
+              role="button" aria-disabled="true">資訊營粉絲專頁
+            </a>
+          </div>
+          <div class="card-img">
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-0">
+        <div class="card bg-transparent">
+          <div class="card-header">
+            <img src="./photo/SVG/link/系學會IG.svg" alt="未來出路">
+          </div>
+          <div class="card-body" style="text-align: center;">
+            <div class="card-img">
+              <a href="https://www.instagram.com/nckucsie/" target="_blank"><img src="./photo/SVG/link/IG.svg" style="align-items: center;" width="180px" alt="系學會IG">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="bg-transparent py-5">
-  <div class="container-sm">
-    <div class="medium  align-content-center text-center">
-      <img src="photo/SVG/Logo/logo大字.svg" alt="成功大學資訊系學會" width="250">
-    </div>
-    <div class="small text-center text-muted">Copyright ©2021 All rights reserved</div>
   </div>
-</footer>
+  <footer class="bg-transparent py-5">
+    <hr style="width: 24%; margin-left: 38%;">
+    <div class="container-sm">
+      <div class="medium  align-content-center text-center">
+        <img src="photo/SVG/Logo/logo大字.svg" alt="成功大學資訊系學會" width="250">
+      </div>
+      <div class="small text-center text-muted">Copyright ©2021 All rights reserved</div>
+    </div>
+  </footer>
 
-
-<!-- Optional JavaScript; choose one of the two! -->
-<script src="js/bootstrap/popper.min.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="js/bootstrap/popper.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
 
 </html>
